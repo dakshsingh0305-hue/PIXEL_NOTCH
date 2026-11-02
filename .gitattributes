@@ -1,0 +1,15 @@
+# Normalize text files in the repository (checkout keeps LF for editor consistency)
+* text=auto
+
+*.bat text eol=crlf
+gradlew text eol=lf
+
+# Binary files - never normalize
+*.png binary
+*.webp binary
+*.jpg binary
+*.gif binary
+*.jar binary
+*.apk binary
+*.ttf binary
+*.otf binary
