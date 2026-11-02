@@ -94,7 +94,7 @@ The notification-listener service is bound by the system (`BIND_NOTIFICATION_LIS
 - The project pins the JVM toolchain to **Java 25** (`gradle-daemon-jvm.properties` → `toolchainVersion=25`); the Android Studio JBR satisfies it. If you hit toolchain discovery issues, ensure no bogus JREs are on the path — the repo's `gradle.properties` already restricts auto-detection.
 
 ```bat
-git clone https://github.com/Dakshsingh0305/PIXEL_NOTCH.git
+git clone https://github.com/dakshsingh0305-hue/PIXEL_NOTCH.git
 cd PIXEL_NOTCH
 
 REM build the APK
@@ -111,7 +111,7 @@ app\build\outputs\apk\debug\app-debug.apk
 ```
 
 **First-run setup**
-1. Open the app and toggle **Island ** → grant *Display over other apps*
+1. Open the app and toggle **Island** → grant *Display over other apps*
 2. Grant **Notification access** (needed for music sessions and notification previews)
 3. Optional: allow the microphone only if you want the audio-reactive visualizer mode
 
